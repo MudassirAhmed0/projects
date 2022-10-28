@@ -1,0 +1,7 @@
+ 
+.news_card:hover span.chevron_wrapper {
+    margin-left: 10px !important;
+}
+.news_card:hover .prod_img {
+    transform: scale(1.1);
+}

@@ -1,0 +1,9 @@
+.services_card {
+    border-bottom: 3px solid transparent;
+}
+.services_card:hover {
+    /* border-bottom: 3px solid #B89535; */
+}
+.services_card:hover .icon_circle {
+    transform: scale(1.2);
+}

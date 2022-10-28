@@ -1,0 +1,6 @@
+.button_with_img:hover h6 {
+    color: #000;
+}
+.button_with_img:hover {
+    background-color: #000;
+}

@@ -1,0 +1,82 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Professional Hair Saloon Service in Karachi",
+            "blogImg": "https://www.kindpng.com/picc/m/218-2189061_men-salon-model-png-png-download-mens-hair.png",
+            "name": "Sebastian",
+            "profileImg": "/assets/images/team/member1.jpg",
+            "description": "Men are concerned about their hair. Well, lavish Mens beauty salon service in Karachi it's definitely something to worry about as it's one of the most striking parts of a person's appearance. Wherever you go, hair will definitely",
+            "date": "12 April 2022",
+            "likes": 405,
+            "comments": 203,
+            "share": 93,
+            "views": 209
+        },
+        {
+            "id": 2,
+            "title": "Professional Hair Saloon Service in Karachi",
+            "blogImg": "https://images.fresha.com/locations/location-profile-images/289972/294439/17e87698-52cd-4a39-b886-05a49d442923.jpg",
+            "name": "Salman",
+            "profileImg": "/assets/images/team/member2.jpg",
+            "description": "We all like to be pampered from time to time. Modern life can Lavish Salon Service in Karachi bring unspeakable levels of stress, so sometimes we deserve money and time for ourselves. Now with hair salon services for",
+            "date": "23 Mach 2020",
+            "likes": 50,
+            "comments": 43,
+            "share": 84,
+            "views": 76
+        },
+        {
+            "id": 3,
+            "title": "Professional Hair Saloon Service in Karachi",
+            "blogImg": "https://static.toiimg.com/photo/msid-84375560/84375560.jpg",
+            "name": "Asif Hussain",
+            "profileImg": "/assets/images/team/member3.jpg",
+            "description": "People are becoming more and more fashion Men Hair Salon Service in Karachi conscious these days and are actively looking for good beauty salons that can enhance their overall beauty. Hairstyle is an integral part of any individual's",
+            "date": "12 August 2021",
+            "likes": 95,
+            "comments": 48,
+            "share": 62,
+            "views": 633
+        },
+        {
+            "id": 4,
+            "title": "Professional Hair Saloon Service in Karachi",
+            "blogImg": "https://www.kindpng.com/picc/m/218-2189061_men-salon-model-png-png-download-mens-hair.png",
+            "name": "Kamran Ali",
+            "profileImg": "/assets/images/team/member4.jpg",
+            "description": " Over the last few decades, the age of men has definitely changed. This is Men Saloon Service In Karachi because more and more men are paying much more attention to grooming habits than their fathers. One of the",
+            "date": "12 April 2022",
+            "likes": 405,
+            "comments": 203,
+            "share": 93,
+            "views": 209
+        },
+        {
+            "id": 5,
+            "title": "Professional Hair Saloon Service in Karachi",
+            "blogImg": "https://www.kindpng.com/picc/m/218-2189061_men-salon-model-png-png-download-mens-hair.png",
+            "name": "Salman",
+            "profileImg": "/assets/images/team/member1.jpg",
+            "description": "If we are talking about ten to twenty years ago, Men Hair Salon in Karachi were mainly used by ladies and girls. But as time went on, it has now become an attraction for men. Men have also",
+            "date": "23 Mach 2020",
+            "likes": 50,
+            "comments": 43,
+            "share": 3,
+            "views": 76
+        },
+        {
+            "id": 6,
+            "title": "Professional Hair Saloon Service in Karachi",
+            "blogImg": "https://images.fresha.com/locations/location-profile-images/289972/294439/17e87698-52cd-4a39-b886-05a49d442923.jpg",
+            "name": "Asif Hussain",
+            "profileImg": "/assets/images/team/member2.jpg",
+            "description": " Over the last few decades, the age of men has definitely changed. This is Men Saloon Service In Karachi because more and more men are paying much more attention to grooming habits than their fathers. One of the",
+            "date": "12 August 2021",
+            "likes": 66,
+            "comments": 48,
+            "share": 46,
+            "views": 45
+        }
+    ]
+}
