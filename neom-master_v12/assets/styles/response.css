@@ -1,0 +1,88 @@
+  @media (min-width: 641px) and (max-width: 790px) {
+    #secondSection .rightEdge .main-head {
+      letter-spacing: 1px !important;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .bg-lines-img {
+      display: none;
+    }
+  }
+
+  .key-activities-tabing-for-mob .tabsHeaderButton span::before {
+    position: static;
+  }
+
+  .slider-icon-img .active-icon {
+    display: none;
+  }
+.h-715{
+  height: 715px!important;
+}
+.h-582{
+  height: 582px!important;
+}
+  .slick-current.slick-center .slider-icon-img .default-icon {
+    display: none;
+  }
+
+  .slick-current.slick-center .slider-icon-img .active-icon {
+    display: block;
+  }
+
+  @media (max-width: 1225px) {
+    .long-tab {
+      position: static !important;
+      width: 33% !important;
+    }
+
+    .long-tab .tabsHeaderButton span::before {
+      left: 0;
+    }
+
+    .long-tab1.tabsHeaderButton span::before {
+      left: 0;
+    }
+
+    .long-tab2 .tabsHeaderButton span::before {
+      bottom: -85px;
+    }
+
+    .long-tab2 span {
+      line-height: 26px;
+    }
+
+    .long-tab .inside-div {
+      width: unset;
+      text-align: center;
+    }
+  }
+
+
+
+  .long-tab2.tabsHeaderButton span::before {
+      left: 0;
+    }
+  @media (min-width: 640px) {
+    .tab-span {
+      height: 110px;
+    }
+  }
+  @media (min-width: 901px) {
+    .tab-span {
+      height: 90px;
+    }
+  }
+  @media (min-width: 1031px) {
+    .tab-span {
+      height: 70px;
+    }
+  }
+  @media (min-width: 1031px) {
+    .tab-span {
+      height: 70px;
+    }
+  }
+
+  

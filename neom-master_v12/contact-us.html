@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0"
+    />
+    <link rel="canonical" href="" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="robots" content="noindex" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content />
+    <meta property="og:description" content />
+    <meta property="og:url" content />
+    <meta property="og:site_name" content />
+    <meta property="og:image" content />
+    <meta name="twitter:card" content />
+    <meta name="twitter:site" content />
+    <meta name="twitter:creator" content />
+    <meta name="twitter:title" content />
+    <meta name="twitter:description" content />
+    <meta name="twitter:domain" content />
+    <meta name="twitter:image" content />
+    <meta name="twitter:url" content />
+    <meta itemprop="image" content />
+    <meta itemprop="name" content />
+    <meta itemprop="description" content />
+    <meta name="geo.region" content />
+    <meta name="geo.placename" content />
+    <meta name="geo.position" content />
+    <meta name="ICBM" content />
+    <meta name content />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicons/apple-touch-icon.png"
+    />
+
+    <meta name="theme-color" content="#0054a6" />
+    <title>Neom || Industrial Operational Technoloy</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <link rel="stylesheet" href="./assets/styles/aos.css" />
+    <link rel="stylesheet" href="./assets/styles/contact.css" />
+
+    <script src="./assets/js/tailwind.js"></script>
+    <script src="./assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- desktop navigation bar -->
+    <nav
+    class="desktop-nav left-[50%] z-30 transform brown-light text-[15px] translate-x-[-50%] myContainer flex justify-between absolute top-10 items-center">
+    <div class="w-[237px] h-[78px]">
+      <a href="./">
+        <img src="./assets/images/svg/logo.svg" alt="Neom Logo" />
+      </a>
+    </div>
+    <div>
+      <ul class="desktop-nav-menu text-white uppercase mb-6 flex text-[13px]  hidde n" >
+        
+        <li class="hover:text-gold transition-all duration-300 ml-auto border-r pr-6 tracking-[1.5px]">
+          <a href="./news.html"> NEWS AND EVENTS </a>
+        </li>
+        <li class="hover:text-gold transition-all duration-300  border-r pr-6 pl-6  tracking-[1.5px]">
+          <a href="./about.html"> About Us </a>
+        </li>
+        <li class="hover:text-gold  text-gold transition-all duration-300 pl-6 tracking-[1.5px]">
+          <a href="./contact-us.html"> Contact Us </a>
+        </li>
+      </ul>
+      <ul class="desktop-nav-menu text-white uppercase flex gap-x-12  hidde n">
+        <!-- <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="./about.html"> About Us </a>
+        </li> -->
+  
+        <li onmouseenter="handleDropdownMouseEnter(this)" onmouseleave="handleDropdownMouseLeave(this)"
+          class="relative dropdownBtn">
+          <span class="cursor-pointer tracking-[3px] flex gap-x-[5px] hover:text-gold transition-all duration-300">
+            CYBERSECURITY DIVISIONS
+            <img class="relative transition-all duration-300" src="./assets/images/svg/arrow.svg" />
+          </span>
+          <div class="dropdown bachalay">
+            <div
+              class="px-[28px] pt-[28px] dropdown w-[318px] overflow-hidden h-[304px] top-10 normal-case transition-all duration-300 tracking-0 absolute left-[50%] transform translate-x-[-50%] rounded-[15px] flex justify-between">
+              <!-- <div class="img_container absolute top-[-130px] right-[-200px]">
+                     <img src="./assets/images/svg/menu-brand.svg" alt="brandIcon">
+                 </div> -->
+              <div class="absolute top-0 right-0 img_container w-[175px]">
+                <img src="./assets/images/brandicons/navBrand.png" alt="navBrand" />
+              </div>
+              <ul class="flex flex-col gap-y-[24px] relative">
+                <li class="hover:text-gold transition-all duration-300">
+                  <a href="./governance.html" class="brown-light">
+                    Governance, Risk and Compliance
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300">
+                  <a href="./engineering.html" class="brown-light">
+                    Engineering and Architecture
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300">
+                  <a href="./response.html" class="brown-light">
+                    Response and Resilience
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300 relative z-5">
+                  <a href="./industrial.html" class="brown-light">
+                    Industrial Cybersecurity
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300 relative z-5">
+                  <a href="./service-delivery.html" class="brown-light">
+                    Service Delivery
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300 relative z-5">
+                  <a href="./management-office.html" class="brown-light">
+                    Strategy Management Office
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="./strategy.html"> CYBERSECURITY STRATEGY </a>
+        </li>
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="./standards.html"> CYBERSECURITY RESOURCES </a>
+        </li>
+        <!-- <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="./news.html"> NEWS AND EVENTS </a>
+        </li>
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="./contact-us.html"> Contact Us </a>
+        </li> -->
+      </ul>
+    </div>
+    
+  </nav>
+    <!-- mobile navigation bar start -->
+    <nav
+      class="mobile-nav absolute h-[100 vh] left-[50%] z-[31] transform brown-light text-[15px] translate-x-[-50%] myContainer flex justify-start items-center flex-col top-[0]"
+    >
+      <div class="w-full h-full absolute top-0 left-0">
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[3] homeHeroOverlay1 back-transparent"
+        >
+        </span>
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[2] homeHeroOverlay2 back-transparent"
+        >
+        </span>
+      </div>
+      <div class="w-[100%] h-[78px] flex justify-between items-center z-[5]">
+        <a href="./">
+          <img
+            src="./assets/images/svg/logo.svg"
+            class="max-w-[170px] max-h-[70px]"
+            alt="Neom Logo"
+          />
+        </a>
+        <div id="toggle"></div>
+      </div>
+    </nav>
+    <div
+      id="menu_options"
+      class="mobile-nav pointer-events-none myContainer opacity-0 fixed z-[30] translate-y-[-100vh]"
+    >
+      <div class="w-full h-full absolute top-0 left-0 z-[-1]">
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[3] homeHeroOverlay1"
+        >
+        </span>
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[2] homeHeroOverlay2"
+        >
+        </span>
+      </div>
+      <ul
+        class="h-[100vh] text-white uppercase flex gap-x-12 flex-col z-[5] pt-[108px] w-[100%]"
+      >
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="./about.html"> About Us </a>
+        </li>
+        <li onclick="openDropdownMenu()" class="relative dropdownB tn">
+          <span
+            class="text-[25px] cursor-pointer leading-[70px] tracking-[5px] flex gap-x-[5px] transition-all duration-300 justify-between"
+          >
+            CYBERSECURITY DIVISIONS
+            <img
+              class="relative transition-all duration-300"
+              src="./assets/images/svg/arrow.svg"
+            />
+          </span>
+          <div
+            id="divisionDropDown"
+            class="dropdown2 bachalay opacity-1 pointer-events-none max-h-[0]"
+          >
+            <div
+              class="pb-[18px] dropdown2 w-[100%] overflow-hidden h-[auto] normal-case transition-all duration-300 tracking-0 rounded-[15px] flex justify-between opacity-100 flex-col"
+            >
+              <div class="absolute top-0 right-0 img_container w-[175px]">
+                <!-- <img src="./assets/images/brandicons/navBrand.png" alt="navBrand"> -->
+              </div>
+              <ul class="flex flex-col">
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="./governance.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Governance, Risk and Compliance
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="./engineering.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Engineering and Architecture
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="./response.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Response and Resilience
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="./operational.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Industrial Operational Technology
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="./service-delivery.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Cybersecurity service delivery
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="./management-office.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Strategy Management office (SMO)
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="./strategy.html"> CYBERSECURITY STRATEGY </a>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="./standards.html"> CYBERSECURITY RESOURCES </a>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="./news.html"> NEWS AND EVENTS </a>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="./contact-us.html"> Contact Us </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile navigation bar end -->
+
+    <section class="dark-gray min-h-[920px] flex xl:items-end relative">
+      <div id="googleMap" class="absolute top-0 left-0 w-full h-full"></div>
+      <div class="myContainer lg:py-[220px] pt-[110px] pb-[75px] text-white">
+        <h4
+          class="xl:text-[40px] uppercase xl:tracking-[8px] leading-[56px] text-[32px] text-center lg:text-left tracking-[6.4px] xl:leading-[56px] relative"
+        >
+          CONTACT US
+        </h4>
+        <p
+          class="brown-light lg:text-[20px] text-center lg:text-left relative leading-[30px] pt-[10px] max-w-[786px
+          ]"
+        >
+        You may contact the Cybersecurity Team through WhatsApp at (+966####) or email us at (cybersecurity@neom.com) or submit your inquiry through below form.
+      </p>
+      <p  class="brown-light lg:text-[20px] text-center lg:text-left relative leading-[30px] pt-[15px]"><strong>Email:</strong> cybersecurity@neom.com</p>
+     <p  class="brown-light lg:text-[20px] text-center lg:text-left relative leading-[30px]"> <strong>WhatsApp:</strong> +966####</p>
+     <p  class="brown-light lg:text-[20px] text-center lg:text-left relative leading-[30px]"> <strong>Location:</strong> NEOM Community 1, Building 123 </p>
+      
+        <form
+          class="relative lg:mt-[74px] mt-[151px] flex justify-between gap-y-[55px] flex-wrap w-full lg:w-[59.55%]"
+        >
+          <div class="flex flex-col gap-y-[22px] w-full lg:w-[47%] relative">
+            <label
+              for="deapartmentName"
+              class="uppercase text-lg leading-[20px] tracking-[3.6px] brown-light"
+              >Subject <span class="text-gold brown-light">*</span></label
+            >
+            <input
+              type="text"
+              name="deapartmentName"
+              id="deapartmentName"
+              onclick="openQuesDropdown()"
+              class="text-[18px] brown-light ourline-0 text-[#ffffff80] leading-[20px] placeholder:text-[#ffffff80] bg-transparent border-b border-[#ffffff80] pb-2 focus:border-[#B89535] cursor-pointer"
+              placeholder="Question"
+              autocomplete="off"
+            />
+            <img
+              src="./assets/images/svg/gray-arrow.svg"
+              id="question_chevron"
+              class="absolute right-[0] top-[50px]"
+            />
+            <p
+              class="text-[13px] text-[#bf3c3c] bottom-[-19px] absolute hidden"
+              id="emptySubject"
+            >
+              This Field is required
+            </p>
+            <div
+              class="quesion-dropdown w-full absolute z-[20] top-[95px] cursor-pointer"
+              id="quesionDropdown"
+            >
+              <div
+                class="brown-light text-[18px] leading-[20px] w-full h-[62px] bg-[#FBF8E9] text-[#13100D] py-[20px] px-[24px] hover:bg-[#FBF8E9]"
+              >
+                Question
+              </div>
+              <div
+                class="brown-light text-[18px] leading-[20px] w-full h-[62px] bg-[#ffffff] text-[#13100D] py-[20px] px-[24px] hover:bg-[#FBF8E9]"
+                onclick="selectedOption('Report Incident')"
+              >
+                Report Incident
+              </div>
+              <div
+                class="brown-light text-[18px] leading-[20px] w-full h-[62px] bg-[#ffffff] text-[#13100D] py-[20px] px-[24px] hover:bg-[#FBF8E9]"
+                onclick="selectedOption('Service Request')"
+              >
+                Service Request
+              </div>
+              <div
+                class="brown-light text-[18px] leading-[20px] w-full h-[62px] bg-[#ffffff] text-[#13100D] py-[20px] px-[24px] hover:bg-[#FBF8E9]"
+                onclick="selectedOption('Other')"
+              >
+                Other
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-[22px] w-full lg:w-[47%] relative">
+            <label
+              for="fullName"
+              class="uppercase text-lg leading-[20px] tracking-[3.6px] brown-light"
+              >Full Name <span class="text-gold brown-light">*</span></label
+            >
+            <input
+              type="text"
+              name="fullName"
+              id="fullName"
+              class="text-[18px] brown-light ourline-0 text-[#ffffff80] leading-[20px] placeholder:text-[#ffffff80] bg-transparent border-b border-[#ffffff80] pb-2 focus:border-[#B89535]"
+              placeholder="Ahmad Ali"
+            />
+            <p
+              class="text-[13px] text-[#bf3c3c] bottom-[-19px] absolute hidden"
+              id="emptyName"
+            >
+              This Field is required
+            </p>
+          </div>
+          <!-- <div class="flex flex-col gap-y-[22px] w-full lg:w-[47%] relative">
+            <label
+              for="mobile"
+              class="uppercase text-lg leading-[20px] tracking-[3.6px] brown-light"
+              >Mobile <span class="text-gold brown-light">*</span></label
+            >
+            <input
+              type="number"
+              name="mobile"
+              id="mobile"
+              class="text-[18px] brown-light ourline-0 text-[#ffffff80] leading-[20px] placeholder:text-[#ffffff80] bg-transparent border-b border-[#ffffff80] pb-2 focus:border-[#B89535]"
+              placeholder="+966 ( 234 446 768 )"
+            />
+            <p
+              class="text-[13px] text-[#bf3c3c] bottom-[-19px] absolute hidden"
+              id="emptyNumber"
+            >
+              This Field is required
+            </p>
+          </div> -->
+          <div class="flex flex-col gap-y-[22px] w-full lg:w-[47%] relative">
+            <label
+              for="fullName"
+              class="uppercase text-lg leading-[20px] tracking-[3.6px] brown-light"
+              >ORGANIZATION NAME <span class="text-gold brown-light">*</span></label
+            >
+            <input
+              type="text"
+              name="organizationName"
+              id="organizationName"
+              class="text-[18px] brown-light ourline-0 text-[#ffffff80] leading-[20px] placeholder:text-[#ffffff80] bg-transparent border-b border-[#ffffff80] pb-2 focus:border-[#B89535]"
+              placeholder="Organization Name"
+            />
+            <p
+              class="text-[13px] text-[#bf3c3c] bottom-[-19px] absolute hidden"
+              id="emptyName"
+            >
+              This Field is required
+            </p>
+          </div>
+          <div class="flex flex-col gap-y-[22px] w-full lg:w-[47%] relative">
+            <label
+              for="email"
+              class="uppercase text-lg leading-[20px] tracking-[3.6px] brown-light"
+              >Email <span class="text-gold brown-light">*</span></label
+            >
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="text-[18px] brown-light ourline-0 text-[#ffffff80] leading-[20px] placeholder:text-[#ffffff80] bg-transparent border-b border-[#ffffff80] pb-2 focus:border-[#B89535]"
+              placeholder="Ahmad@email.com"
+            />
+            <p
+              class="text-[13px] text-[#bf3c3c] bottom-[-19px] absolute hidden"
+              id="emptyEmail"
+            >
+              This Field is required
+            </p>
+          </div>
+          <div class="flex flex-col gap-y-[22px] w-[100%] relative">
+            <label
+              for="Summary"
+              class="uppercase text-lg leading-[20px] tracking-[3.6px] brown-light"
+              >MESSAGE <span class="text-gold brown-light">*</span></label
+            >
+            <input
+              type="text"
+              name="Summary"
+              id="Summary"
+              class="text-[18px] brown-light ourline-0 text-[#ffffff80] leading-[20px] placeholder:text-[#ffffff80] bg-transparent border-b border-[#ffffff80] pb-2 focus:border-[#B89535]"
+              placeholder=""
+            />
+            <p
+              class="text-[13px] text-[#bf3c3c] bottom-[-19px] absolute hidden"
+              id="emptyMessage"
+            >
+              This Field is required
+            </p>
+          </div>
+          <button
+            class="w-[184px] bg-[#b89535] hover:bg-[#ebc03f] text-[15px] uppercase tracking-[3px] mx-auto lg:mx-0 transition-all duration-300 h-[53px] rounded-[28px]"
+            onclick="submitForm(event)"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="bg-saint justify-center border-t-[6px] border-gold text-[18] flex items-center items-center sm:gap-x-[47px] sm:py-[35px] sm:px-[60px] sm:py-[30px] pb-[30px] pt-[25px] px-[25px] gap-x-[0]"
+      >
+        <div class="footer-logo-div">
+          <img
+            src="./assets/images/svg/logo-for-footer.svg"
+            class="min-w-[34px] max-w-[61px]"
+          />
+        </div>
+
+        <div class="footer-functionss-div">
+          <h4
+            class="brown-regular uppercase text-[18px] font-bold leading-[25px]"
+          >
+            Functions
+          </h4>
+          <ul
+            class="footer-second-menu flex flex-wrap pt-[19px] w-[824px] justify-start gap-x-[0]"
+          >
+            <li class="funcs w-[262px] mr-[55px] pb-[13px] md:order-1 order-1">
+              <a
+                href="./governance.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Governance, Risk and Compilance</a
+              >
+            </li>
+            <li
+              class="funcs text-left w-[185px] mr-[92px] pb-[13px] md:order-2 order-3"
+            >
+              <a
+                href="./response.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Response and Resilience
+              </a>
+            </li>
+            <li class="funcs text-left w-[119px] pb-[13px] md:order-3 order-5">
+              <a
+                href="service-delivery.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Service Delivery</a
+              >
+            </li>
+            <li class="funcs w-[223px] mr-[95px] pb-[13px] md:order-4 order-2">
+              <a
+                href="./engineering.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Engineering and Architecture</a
+              >
+            </li>
+            <li
+              class="funcs text-left w-[182px] mr-[95px] pb-[13px] md:order-5 order-4"
+            >
+              <a
+                href="./operational.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Operational Technology</a
+              >
+            </li>
+            <li class="funcs text-left w-[223px] pb-[13px] md:order-6 order-6">
+              <a
+                href="./management-office.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Strategy Management Office</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-sitemap-div">
+          <h4
+            class="brown-regular uppercase text-[18px] font-bold leading-[25px]"
+          >
+            SITEMAP
+          </h4>
+          <ul
+            class="flex flex-wrap justify-start w-[100%] pt-[19px] gap-x-[2rem]"
+          >
+            <li class="sitemap-li pb-[13px] md:order-1 order-1">
+              <a
+                href="./about.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >About Us</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-2 order-3">
+              <a
+                href="./standards.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Standards</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-3 order-5">
+              <a
+                href="./contact-us.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Contact Us</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-4 order-2">
+              <a
+                href="./strategy.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Strategy</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-5 order-4">
+              <a
+                href="./news.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >News</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="w-[100%] h-[25px] bg-[#B89535] text-center flex justify-center items-center md:hidden block"
+      >
+        <p class="brown-light text-[8px] text-[#ffffffd4]">
+          Copyright 2022 <strong>NEOM</strong> All Rights Reserved. Designed and
+          Developed by <strong>Brackets Technology.</strong>
+        </p>
+      </div>
+    </footer>
+    <!-- <footer
+        class="bg-light  border-t-[6px] text-[19px]  border-gold gap-y-7   text-[18] pt-[53px] pb-[47px] flex flex-col items-center items-center ">
+        <ul class="flex  justify-center gap-x-12 opacity-[70%]">
+            <li><a href="./about.html" class="brown-light hover:text-gold trasition-all duration-300">About Us</a></li>
+            <li><a href="./strategy.html" class="brown-light hover:text-gold trasition-all duration-300">Strategy</a>
+            </li>
+            <li><a href="./standards.html" class="brown-light hover:text-gold trasition-all duration-300">Standards</a>
+            </li>
+            <li><a href="./news.html" class="brown-light hover:text-gold trasition-all duration-300">News</a></li>
+            <li><a href="./contact-us.html" class="brown-light hover:text-gold trasition-all duration-300">Contact
+                    Us</a></li>
+        </ul>
+        <ul class="flex  justify-center gap-x-12 opacity-[70%]">
+            <li><a href="./governance.html" class="brown-light hover:text-gold trasition-all duration-300">Governance,
+                    Risk and Compilance</a>
+            </li>
+            <li><a href="./engineering.html" class="brown-light hover:text-gold trasition-all duration-300">Engineering
+                    and Architecture</a>
+            </li>
+            <li><a href="./response.html" class="brown-light hover:text-gold trasition-all duration-300">Response
+                    and Resilience</a>
+            </li>
+            <li><a href="./operational.html" class="brown-light hover:text-gold trasition-all duration-300">Operational
+                    Technology</a>
+            </li>
+        </ul>
+    </footer> -->
+
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/map.js"></script>
+    <script src="./assets/js/common.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI-iRftBdC4ZqL8aRJ-RUQnBN1pz3PCDg&callback=myMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/contact.js"></script>
+  </body>
+</html>

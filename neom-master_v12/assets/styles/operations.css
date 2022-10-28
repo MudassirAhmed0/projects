@@ -1,0 +1,94 @@
+  .slider-icon-img .active-icon {
+display: none;
+}
+
+.slick-current.slick-center .slider-icon-img .default-icon {
+display: none;
+}
+
+.slick-current.slick-center .slider-icon-img .active-icon {
+display: block;
+}
+@media (min-width: 641px) and (max-width: 790px) {
+  #secondSection .rightEdge .main-head {
+    letter-spacing: 1px !important;
+  }
+}
+@media (max-width: 640px) {
+  .bg-lines-img {
+    display: none;
+  }
+}
+.key-activities-tabing-for-mob .tabsHeaderButton span::before {
+  position: static;
+}
+.tabsHeaderButton span::before {
+    left: 0;
+  }
+@media (max-width: 1225px) {
+  .long-tab {
+    position: static !important;
+    width: 33% !important;
+  }
+  /* .long-tab .tabsHeaderButton span::before {
+    left: 0;
+  }
+  .long-tab1.tabsHeaderButton span::before {
+    left: 0;
+  }
+  .long-tab2 .tabsHeaderButton span::before {
+    left: 0;
+  } */
+  .long-tab.tabsHeaderButton span::before {
+    left: 0;
+    bottom: -3px;
+  }
+  
+  .long-tab .inside-div {
+    width: unset;
+    text-align: center;
+  }
+}
+
+@media (min-width: 640px) {
+.tab-span {
+  height: 84px;
+}
+}
+@media (min-width: 689px) {
+.tab-span {
+  height: 64px;
+}
+}
+@media (min-width: 1004px) {
+.tabsHeaderButton span::before {
+  left: 0;
+  bottom: -4px;
+}
+.tab-span {
+  height: 60px;
+}
+}
+@media (min-width: 1150px) {
+.tab-span {
+  height: 47px;
+}
+}
+@media (min-width: 1226px) {
+.tab-span {
+  height: 47px;
+}
+.tabsHeaderButton span::before {
+  bottom: 0;
+}
+}
+@media (min-width: 689px) {
+.long-tab-wrapper {
+  height: 113px !important;
+}
+}
+@media (min-width: 1150px) {
+.long-tab-wrapper {
+  height: 100px !important;
+}
+}

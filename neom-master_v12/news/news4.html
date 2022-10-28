@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0"
+    />
+    <link rel="canonical" href="" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="robots" content="noindex" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content />
+    <meta property="og:description" content />
+    <meta property="og:url" content />
+    <meta property="og:site_name" content />
+    <meta property="og:image" content />
+    <meta name="twitter:card" content />
+    <meta name="twitter:site" content />
+    <meta name="twitter:creator" content />
+    <meta name="twitter:title" content />
+    <meta name="twitter:description" content />
+    <meta name="twitter:domain" content />
+    <meta name="twitter:image" content />
+    <meta name="twitter:url" content />
+    <meta itemprop="image" content />
+    <meta itemprop="name" content />
+    <meta itemprop="description" content />
+    <meta name="geo.region" content />
+    <meta name="geo.placename" content />
+    <meta name="geo.position" content />
+    <meta name="ICBM" content />
+    <meta name content />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/favicons/apple-touch-icon.png"
+    />
+
+    <meta name="theme-color" content="#0054a6" />
+    <title>Neom || News</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="../assets/styles/global.css" />
+    <link rel="stylesheet" href="../assets/styles/aos.css" />
+    <link rel="stylesheet" href="../assets/styles/single-news.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="../assets/js/tailwind.js"></script>
+    <script src="../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- desktop navigation bar -->
+    <nav
+      class="desktop-nav left-[50%] z-30 transform brown-light text-[15px] translate-x-[-50%] myContainer flex justify-between absolute top-10 items-center"
+    >
+      <div class="w-[237px] h-[78px]">
+        <a href="../">
+          <img src="../assets/images/svg/logo.svg" alt="Neom Logo" />
+        </a>
+      </div>
+      <ul class="desktop-nav-menu text-white uppercase flex gap-x-12 hidde n">
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="../about.html"> About Us </a>
+        </li>
+
+        <li
+          onmouseenter="handleDropdownMouseEnter(this)"
+          onmouseleave="handleDropdownMouseLeave(this)"
+          class="relative dropdownBtn"
+        >
+          <span
+            class="cursor-pointer tracking-[3px] flex gap-x-[5px] hover:text-gold transition-all duration-300"
+          >
+             CYBERSECURITY DIVISIONS
+            <img
+              class="relative transition-all duration-300"
+              src="../assets/images/svg/arrow.svg"
+            />
+          </span>
+          <div class="dropdown bachalay">
+            <div
+              class="px-[28px] pt-[28px] dropdown w-[318px] overflow-hidden h-[304px] top-10 normal-case transition-all duration-300 tracking-0 absolute left-[50%] transform translate-x-[-50%] rounded-[15px] flex justify-between"
+            >
+              <!-- <div class="img_container absolute top-[-130px] right-[-200px]">
+                    <img src="../assets/images/svg/menu-brand.svg" alt="brandIcon">
+                </div> -->
+              <div class="absolute top-0 right-0 img_container w-[175px]">
+                <img
+                  src="../assets/images/brandicons/navBrand.png"
+                  alt="navBrand"
+                />
+              </div>
+              <ul class="flex flex-col gap-y-[24px] relative">
+                <li class="hover:text-gold transition-all duration-300">
+                  <a href="../governance.html" class="brown-light">
+                    Governance, Risk and Compliance
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300">
+                  <a href="../engineering.html" class="brown-light">
+                    Engineering and Architecture
+                  </a>
+                </li>
+                <li class="hover:text-gold transition-all duration-300">
+                  <a href="../response.html" class="brown-light">
+                    Response and Resilience
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 relative z-5"
+                >
+                  <a href="../operational.html" class="brown-light">
+                    Operational Technology
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 relative z-5"
+                >
+                  <a href="../service-delivery.html" class="brown-light">
+                    Service Delivery
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 relative z-5"
+                >
+                  <a href="../management-office.html" class="brown-light">
+                    Strategy Management Office
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="../strategy.html">  CYBERSECURITY STRATEGY </a>
+        </li>
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="../standards.html"> CYBERSECURITY RESOURCES </a>
+        </li>
+        <li class="hover:text-gold text-gold transition-all duration-300 tracking-[3px]">
+          <a href="../news.html"> NEWS AND EVENTS </a>
+        </li>
+        <li class="hover:text-gold transition-all duration-300 tracking-[3px]">
+          <a href="../contact-us.html"> Contact Us </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- mobile navigation bar start -->
+    <nav
+      class="mobile-nav mobile-navv h-[100 vh] left-[50%] z-[31] transform brown-light text-[15px] translate-x-[-50%] myContainer flex justify-start absolute items-center flex-col top-[0]"
+    >
+      <div class="w-full h-full absolute top-0 left-0">
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[3] homeHeroOverlay1 back-transparent"
+        >
+        </span>
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[2] homeHeroOverlay2 back-transparent"
+        >
+        </span>
+      </div>
+      <div class="w-[100%] h-[78px] flex justify-between items-center z-[5]">
+        <a href="../">
+          <img
+            src="../assets/images/svg/logo.svg"
+            class="max-w-[170px] max-h-[70px]"
+            alt="Neom Logo"
+          />
+        </a>
+        <div id="toggle"></div>
+      </div>
+    </nav>
+    <div
+      id="menu_options"
+      class="mobile-nav pointer-events-none myContainer opacity-0 fixed z-[30] translate-y-[-100vh]"
+    >
+      <div class="w-full h-full absolute top-0 left-0 z-[-1]">
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[3] homeHeroOverlay1"
+        >
+        </span>
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[2] homeHeroOverlay2"
+        >
+        </span>
+      </div>
+      <ul
+        class="h-[100vh] text-white uppercase flex gap-x-12 flex-col z-[5] pt-[108px] w-[100%]"
+      >
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="../about.html"> About Us </a>
+        </li>
+        <li onclick="openDropdownMenu()" class="relative dropdownB tn">
+          <span
+            class="text-[25px] cursor-pointer leading-[70px] tracking-[5px] flex gap-x-[5px] transition-all duration-300 justify-between"
+          >
+            CYBERSECURITY DIVISIONS
+            <img
+              class="relative transition-all duration-300"
+              src="../assets/images/svg/arrow.svg"
+            />
+          </span>
+          <div
+            id="divisionDropDown"
+            class="dropdown2 bachalay opacity-1 max-h-[0]"
+          >
+            <div
+              class="pb-[18px] dropdown2 w-[100%] overflow-hidden h-[auto] normal-case transition-all duration-300 tracking-0 rounded-[15px] flex justify-between opacity-100 flex-col"
+            >
+              <div class="absolute top-0 right-0 img_container w-[175px]">
+                <!-- <img src="../assets/images/brandicons/navBrand.png" alt="navBrand"> -->
+              </div>
+              <ul class="flex flex-col">
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="../governance.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Governance, Risk and Compliance
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="../engineering.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Engineering and Architecture
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="../response.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Response and Resilience
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="../operational.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Industrial Operational Technology
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="../service-delivery.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Cybersecurity service delivery
+                  </a>
+                </li>
+                <li
+                  class="hover:text-gold transition-all duration-300 py-[5px]"
+                >
+                  <a
+                    href="../management-office.html"
+                    class="brown-light text-[12px] tracking-[2.4px] uppercase"
+                  >
+                    Strategy Management office (SMO)
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="../strategy.html"> CYBERSECURITY STRATEGY </a>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="../standards.html"> CYBERSECURITY RESOURCES </a>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="../news.html"> NEWS AND EVENTS </a>
+        </li>
+        <li
+          class="text-[25px] hover:text-gold transition-all duration-300 leading-[70px] tracking-[5px]"
+        >
+          <a href="../contact-us.html"> Contact Us </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile navigation bar end -->
+
+    <section id="firstSection" class="relative sm:min-h-[621px] min-h-[472px]">
+      <div class="w-full h-full absolute top-0 left-0">
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[3] homeHeroOverlay1"
+        >
+        </span>
+        <span
+          class="absolute top-0 left-0 w-full h-full z-[2] homeHeroOverlay2"
+        >
+        </span>
+        <span class="absolute top-0 right-0 w-full h-full z-[4] img_container">
+          <img
+            src="../assets/images/brandicons/heroBI.png"
+            class="bgimg"
+            alt="brandIcon"
+          />
+        </span>
+      </div>
+
+      <div
+        class="myContainer relative flex flex-col z-[4] justify-center items-center sm:min-h-[621px] text-white min-h-[472px]"
+      >
+        <h1
+          id="heroHeading"
+          data-aos-once="true"
+          data-aos="fade-up"
+          data-aos-duration="700"
+          class="main-heading sm:text-[28px] uppercase text-center sm:leading-[40px] sm:tracking-[5.6px] sm:mt-[0] text-[20px] leading-[43px] tracking-[4px]"
+        >
+          Lazarus Group Behind $540 Million Axie Infinity Crypto Hack and
+          Attacks on Chemical Sector
+        </h1>
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <!-- img div for desktop -->
+      <div
+        class="myContainer img_container sm:mt-[-150px] relative z-[5] sm:h-[649px] md:block hidden mt-[20px] h-[290px]"
+      >
+        <img
+          src="../assets/images/news/news4.jpg"
+          class="main-img rounded-[15px]"
+          alt="single News banner"
+        />
+      </div>
+      <!-- img div for mob -->
+      <div
+        class="myContainer img_container sm:mt-[-150px] relative z-[5] sm:h-[649px] md:hidden px-[15px] block mt-[-85px] h-[290px]"
+      >
+        <img
+          src="../assets/images/news/news4.jpg"
+          class="rounded-[15px]"
+          alt="single News banner"
+        />
+      </div>
+
+      <div
+        class="text-black max-w-[966px] mx-auto lg:pt-[106px] lg:pb-[130px] lg:px-[0] pt-[20px] px-[30px] pb-[40px]"
+      >
+        <div class="flex justify-between">
+          <span class="brown-light opacity-[70%]">April 16, 2022</span>
+          <ul class="flex gap-x-[24px]">
+            <li>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=url">
+                <img
+                  src="../assets/images/svg/Icon awesome-linkedin.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/sharer.php?u=url">
+                <img
+                  src="../assets/images/svg/Icon metro-facebook.svg"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/share?text=text&url=url">
+                <img
+                  src="../assets/images/svg/Icon awesome-twitter-square.svg"
+                  alt="Twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="mailto:?&subject=&cc=&bcc=&body=url">
+                <img
+                  src="../assets/images/svg/Icon zocial-email.svg"
+                  alt="email"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/Icon metro-link.svg"
+                  alt="Metro LInk"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="flex opacity-[70%] flex-col mt-[35px] gap-y-5 md:gap-y-8 mb-[88px] mb-[50px]"
+        >
+          <p class="brown-light text-lg leading-[28px]">
+            The U.S. Treasury Department has implicated the North Korea-backed
+            Lazarus Group (aka Hidden Cobra) in the theft of $540 million from
+            video game Axie Infinity's Ronin Network last month.
+          </p>
+          <p class="brown-light text-lg leading-[28px]">
+            On Thursday, the Treasury tied the Ethereum wallet address that
+            received the stolen digital currency to the threat actor and
+            sanctioned the funds by adding the address to the Office of Foreign
+            Assets Control's (OFAC) Specially Designated Nationals (SDN) List.
+          </p>
+          <p class="brown-light text-lg leading-[28px]">
+            "The FBI, in coordination with Treasury and other U.S. government
+            partners, will continue to expose and combat the DPRK's use of
+            illicit activities – including cybercrime and cryptocurrency theft –
+            to generate revenue for the regime," the intelligence and law
+            enforcement agency said in a statement.
+          </p>
+          <p class="brown-light text-lg leading-[28px]">
+            The cryptocurrency heist, the second-largest cyber-enabled theft to
+            date, involved the siphoning of 173,600 Ether (ETH) and 25.5 million
+            USD Coins from the Ronin cross-chain bridge, which allows users to
+            transfer their digital assets from one crypto network to another, on
+            March 23, 2022.
+          </p>
+          <p class="brown-light text-lg leading-[28px]">
+            By sanctioning the wallet address, the move prohibits U.S.
+            individuals and entities from transacting with it to ensure that the
+            state-sponsored group can't cash out any further funds. An analysis
+            by Elliptic has found that the actor has already managed to launder
+            18% of the siphoned digital funds (about $97 million) as of April
+            14.
+          </p>
+          <p class="brown-light text-lg leading-[28px]">
+            "First, the stolen USDC was swapped for ETH through decentralized
+            exchanges (DEXs) to prevent it from being seized," Elliptic noted.
+            "By converting the tokens at DEXs, the hacker avoided the anti-money
+            laundering (AML) and 'know your customer' (KYC) checks performed at
+            centralized exchanges."
+          </p>
+
+          <p class="md:text-[18px] md:pt-[0] text-[12px] pt-[25px]">
+            <strong>Full article:</strong>
+            <a
+              target="_blank"
+              href="https://thehackernews.com/2022/04/lazarus-hackers-behind-540-million-axie.html"
+              class="text-[#B89535] underline"
+              >https://thehackernews.com/2022/04/lazarus-hackers-behind-540-million-axie.html</a
+            >
+          </p>
+        </div>
+        <div class="flex justify-between max-w-[930px] mx-auto">
+          <div class="flex flex-col gap-y-1">
+            <span class="text-gold text-[22px]">PREV</span>
+            <span class="brown-light text-lg opacity-[70%]"
+              >Cyberwire article</span
+            >
+          </div>
+          <div class="flex flex-col gap-y-1 text-right">
+            <span class="text-gold text-[22px]">NEXT</span>
+            <span class="brown-light text-lg opacity-[70%]"
+              >GitHub article</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="bg-saint justify-center border-t-[6px] border-gold text-[18] flex items-center items-center sm:gap-x-[47px] sm:py-[35px] sm:px-[60px] sm:py-[30px] pb-[30px] pt-[25px] px-[25px] gap-x-[0]"
+      >
+        <a href="../" class="footer-logo-div w-[65px] hidden xl:block">
+          <img
+            src="../assets/images/svg/logo-for-footer.svg"
+            class="min-w-[220px]"
+          />
+        </a>
+
+        <div class="footer-functionss-div">
+          <h4
+            class="brown-regular uppercase text-[18px] font-bold leading-[25px]"
+          >
+            Functions
+          </h4>
+          <ul
+            class="footer-second-menu flex flex-wrap pt-[19px] w-[824px] justify-start gap-x-[0]"
+          >
+            <li class="funcs w-[262px] mr-[55px] pb-[13px] md:order-1 order-1">
+              <a
+                href="../governance.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Governance, Risk and Compilance</a
+              >
+            </li>
+            <li
+              class="funcs text-left w-[185px] mr-[92px] pb-[13px] md:order-2 order-3"
+            >
+              <a
+                href="../response.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Response and Resilience
+              </a>
+            </li>
+            <li class="funcs text-left w-[119px] pb-[13px] md:order-3 order-5">
+              <a
+                href="../service-delivery.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Service Delivery</a
+              >
+            </li>
+            <li class="funcs w-[223px] mr-[95px] pb-[13px] md:order-4 order-2">
+              <a
+                href="../engineering.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Engineering and Architecture</a
+              >
+            </li>
+            <li
+              class="funcs text-left w-[182px] mr-[95px] pb-[13px] md:order-5 order-4"
+            >
+              <a
+                href="../operational.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Operational Technology</a
+              >
+            </li>
+            <li class="funcs text-left w-[223px] pb-[13px] md:order-6 order-6">
+              <a
+                href="../management-office.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Strategy Management Office</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-sitemap-div">
+          <h4
+            class="brown-regular uppercase text-[18px] font-bold leading-[25px]"
+          >
+            SITEMAP
+          </h4>
+          <ul
+            class="flex flex-wrap justify-start w-[100%] pt-[19px] gap-x-[2rem]"
+          >
+            <li class="sitemap-li pb-[13px] md:order-1 order-1">
+              <a
+                href="../about.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >About Us</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-2 order-3">
+              <a
+                href="../standards.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Standards</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-3 order-5">
+              <a
+                href="../contact-us.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Contact Us</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-4 order-2">
+              <a
+                href="../strategy.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >Strategy</a
+              >
+            </li>
+            <li class="sitemap-li pb-[13px] md:order-5 order-4">
+              <a
+                href="../news.html"
+                class="brown-light sm:text-[17px] sm:leading-[20px] hover:text-gold trasition-all duration-300 text-[13px] leading-[15px]"
+                >News</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="w-[100%] h-[25px] bg-[#B89535] text-center flex justify-center items-center md:hidden block"
+      >
+        <p class="brown-light text-[8px] text-[#ffffffd4]">
+          Copyright 2022 <strong>NEOM</strong> All Rights Reserved. Designed and
+          Developed by <strong>Brackets Technology.</strong>
+        </p>
+      </div>
+    </footer>
+
+    <script src="../assets/js/jquery.min.js"></script>
+
+    <script src="../assets/js/sub.js"></script>
+    <script src="../assets/js/jquery.lazy.min.js"></script>
+    <script src="../assets/js/jquery.lazy.plugins.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/lazy.js"></script>
+    <script src="../assets/js/aosinitialize.js"></script>
+    <script src="../assets/js/division.js"></script>
+    <!-- 24.709724, 46.645758 -->
+    <!-- 24.709860, 46.645651 -->
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="../assets/js/common.js"></script>
+  </body>
+</html>

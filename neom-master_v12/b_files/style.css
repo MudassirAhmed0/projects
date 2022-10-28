@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f7f2;
+}
+text tspan {
+  font-family: sans-serif;
+}
+
+.neom-shield .top-block {
+  opacity: 0;
+}
+.animat-neom-shield .top-block {
+  animation: show-block 1s forwards 1.5s;
+}
+.neom-shield .top-element {
+  opacity: 0;
+}
+.animat-neom-shield .top-element {
+  animation: show-block 1s forwards 2.5s;
+}
+.dron-0 {
+  opacity: 0 !important;
+}
+.animat-neom-shield .dron-1 {
+  animation: show-block 1s forwards 2.5s, animat-dron-1 60s linear infinite 2.5s;
+}
+@keyframes animat-dron-1 {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(10%, 10%);
+  }
+  66% {
+    transform: translate(20%, 3%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .dron-2 {
+  animation: show-block 1s forwards 2.5s, animat-dron-2 70s linear infinite 2.5s;
+}
+@keyframes animat-dron-2 {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(7%, 5%);
+  }
+  66% {
+    transform: translate(15%, 2%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .dron-3 {
+  animation: show-block 1s forwards 2.5s, animat-dron-3 80s linear infinite 2.5s;
+}
+@keyframes animat-dron-3 {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(-8%, 3%);
+  }
+  66% {
+    transform: translate(-16%, -3%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .dron-4 {
+  animation: show-block 1s forwards 2.5s, animat-dron-4 70s linear infinite 2.5s;
+}
+@keyframes animat-dron-4 {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(-11%, -10%);
+  }
+  66% {
+    transform: translate(-17%, 4%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .robot-1 {
+  animation: show-block 1s forwards 2.5s, animat-robot 20s linear infinite 2.5s;
+}
+@keyframes animat-robot {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-2.5%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .robot-2 {
+  animation: show-block 1s forwards 2.5s,
+    animat-robot-2 10s linear infinite 2.5s;
+}
+@keyframes animat-robot-2 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(1.5%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .car-orange {
+  animation: show-block 1s forwards 2.5s,
+    animat-car-orange 20s linear infinite 2.5s;
+}
+@keyframes animat-car-orange {
+  0% {
+    transform: translate(6%);
+    opacity: 1;
+  }
+  99.99% {
+    transform: translate(19.5%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(6%);
+    opacity: 0;
+  }
+}
+.animat-neom-shield .car-green {
+  animation: show-block 1s forwards 2.5s,
+    animat-car-green 30s linear infinite 2.5s;
+}
+@keyframes animat-car-green {
+  0% {
+    transform: translate(-1%);
+    opacity: 1;
+  }
+  99.99% {
+    transform: translate(-22.5%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-1%);
+    opacity: 0;
+  }
+}
+.animat-neom-shield .train {
+  animation: show-block 1s forwards 2.5s, animat-train 20s linear infinite 2.5s;
+}
+@keyframes animat-train {
+  0% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+  99.99% {
+    transform: translate(-20%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 0;
+  }
+}
+.animat-neom-shield .on-bycicle {
+  animation: show-block 1s forwards 2.5s,
+    animat-on-bycicle 25s linear infinite 2.5s;
+}
+@keyframes animat-on-bycicle {
+  0% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+  99.99% {
+    transform: translate(9.5%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 0;
+  }
+}
+.animat-neom-shield .on-scoter {
+  animation: show-block 1s forwards 2.5s,
+    animat-on-scoter 30s linear infinite 2.5s;
+}
+@keyframes animat-on-scoter {
+  0% {
+    transform: translate(-7%);
+  }
+  50% {
+    transform: translate(7%);
+  }
+  100% {
+    transform: translate(-7%);
+  }
+}
+.animat-neom-shield .wifi {
+  animation: show-block 1s forwards 2.5s, animat-wifi 2s linear infinite 2.5s;
+}
+@keyframes animat-wifi {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.neom-shield .middle-block {
+  opacity: 0;
+}
+.animat-neom-shield .middle-block {
+  animation: show-block 1s forwards 0.5s;
+}
+.neom-shield .middle-elements {
+  opacity: 0;
+}
+.animat-neom-shield .middle-elements {
+  animation: show-block 1s forwards 2s;
+}
+.animat-neom-shield .blue-woman-with-hijab {
+  animation: show-block 1s forwards 2s,
+    animat-blue-woman-with-hijab 10s linear infinite 2s;
+}
+@keyframes animat-blue-woman-with-hijab {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(-0.5%, 0.25%);
+  }
+  66% {
+    transform: translate(-1.5%, 0.25%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .green-orange-woman {
+  animation: show-block 1s forwards 2s,
+    animat-green-orange-woman 25s linear infinite 2s;
+}
+@keyframes animat-green-orange-woman {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(-1%, 0.5%);
+  }
+  66% {
+    transform: translate(-2%, -0.25%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .robot-middle {
+  animation: show-block 1s forwards 2s,
+    animat-robot-middle 25s linear infinite 2s;
+}
+@keyframes animat-robot-middle {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translate(-2%, 1%);
+  }
+  66% {
+    transform: translate(4%, 1%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.animat-neom-shield .woman-with-red-sac {
+  animation: show-block 1s forwards 2s,
+    animat-woman-with-red-sac 20s linear infinite 2s;
+}
+@keyframes animat-woman-with-red-sac {
+  0% {
+    transform: translate(-0.5%);
+  }
+  50% {
+    transform: translate(1.5%);
+  }
+  100% {
+    transform: translate(-0.5%);
+  }
+}
+.animat-neom-shield .orange-sides-girl {
+  animation: show-block 1s forwards 2s,
+    animat-orange-sides-girl 20s linear infinite 2s;
+}
+@keyframes animat-orange-sides-girl {
+  0% {
+    transform: translate(0%);
+  }
+  50% {
+    transform: translate(-4%, 2%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+.neom-shield .bottom-block {
+  opacity: 0;
+}
+.animat-neom-shield .bottom-block {
+  animation: show-block 1s forwards;
+}
+.neom-shield .dached-border {
+  opacity: 0;
+}
+.animat-neom-shield .dached-border {
+  animation: show-block 1s forwards 3s;
+}
+.animat-neom-shield .dached-border .of-path {
+  animation: animat-dached-border 10s infinite linear;
+}
+@keyframes animat-dached-border {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 100;
+  }
+}
+.neom-shield .text-on-dached-border {
+  opacity: 0;
+}
+.animat-neom-shield .text-on-dached-border {
+  animation: show-block 1s forwards 3s;
+}
+.neom-shield .clouds {
+  opacity: 1;
+}
+
+@keyframes show-block {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+#g10226 {
+    opacity: 0;
+  }

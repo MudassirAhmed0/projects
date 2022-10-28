@@ -1,0 +1,26 @@
+#question_chevron {
+    transition: transform .5s ease;
+}
+
+.flip-h {
+    transform: scaleY(-1);
+}
+
+.show {
+    display: block !important;
+}
+
+#quesionDropdown {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fadeOutDropdown {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+.fadeInDropdown {
+    opacity: 1 !important;
+    pointer-events: all !important;
+}

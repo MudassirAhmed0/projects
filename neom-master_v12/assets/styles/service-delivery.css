@@ -1,0 +1,111 @@
+  .slider-icon-img .active-icon {
+    display: none;
+  }
+
+  .slick-current.slick-center .slider-icon-img .default-icon {
+    display: none;
+  }
+
+  .slick-current.slick-center .slider-icon-img .active-icon {
+    display: block;
+  }
+    @media (min-width: 641px) and (max-width: 790px) {
+      #secondSection .rightEdge .main-head {
+        letter-spacing: 1px !important;
+      }
+    }
+    @media (max-width: 640px) {
+      .bg-lines-img {
+        display: none;
+      }
+    }
+    .key-activities-tabing-for-mob .tabsHeaderButton span::before {
+      position: static;
+    }
+
+    .long-tab .tabsHeaderButton span::before {
+      left: 0;
+    }
+    @media (max-width: 1225px) {
+      .long-tab {
+        position: static !important;
+        width: 33% !important;
+      }
+      /* .long-tab1.tabsHeaderButton span::before {
+        left: 0;
+      }
+      .long-tab2 .tabsHeaderButton span::before {
+        left: 0;
+      } */
+      /* .long-tab2 span {
+        line-height: 26px;
+      } */
+      .long-tab .inside-div {
+        width: unset;
+        text-align: center;
+      }
+    }
+    .tabsHeaderButton span::before {
+      left: 0;
+      bottom: -3px
+    }
+
+
+
+    .long-tab2.tabsHeaderButton span::before {
+      left: 0;
+      bottom: 20px
+    }
+  @media (min-width: 640px) {
+    .tab-span {
+      height: 80px;
+    }
+  }
+  @media (min-width: 901px) {
+    .tab-span {
+      height: 90px;
+    }
+  }
+  @media (min-width: 1031px) {
+    .tab-span {
+      height: 70px;
+    }
+  }
+  @media (min-width: 1031px) {
+    .tab-span {
+      height: 70px;
+    }
+  }
+
+
+  @media (min-width: 640px) {
+    .long-tab-wrapper {
+      height: 113px !important;
+    }
+  }
+
+  @media (min-width: 886px) {
+    .long-tab-wrapper {
+      height: 93px !important;
+    }
+    .long-tab2.tabsHeaderButton span::before {
+      bottom: 40px;
+    }
+  }
+  @media (min-width: 901px) {
+    .long-tab2.tabsHeaderButton span::before {
+      bottom: 50px;
+    }
+  }
+  @media (min-width: 1031px) {
+    .long-tab2.tabsHeaderButton span::before {
+      bottom: 30px;
+    }
+  }
+  @media (min-width: 1226px) {
+    .tabsHeaderButton span::before {
+      bottom: 0;
+    }
+  }
+
+  
